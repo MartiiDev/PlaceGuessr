@@ -7,7 +7,7 @@ This script turns Google Maps' website into a game just like Geoguessr, so no mo
 
 # How to play?
 1. You have to install an extension to handle this script. The script has only been tested on [TamperMonkey](https://www.tampermonkey.net/) (Chrome version), so don't hesitate to return any feedback. You need one of the following:  
-[Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo), [Firefox](https://addons.mozilla.org/fr/firefox/addon/tampermonkey/), [Safari](https://apps.apple.com/us/app/tampermonkey/id1482490089), Microsoft Edge ([Legacy](https://www.microsoft.com/fr-fr/p/tampermonkey/9nblggh5162s?rtc=1&activetab=pivot:overviewtab), [Chromium](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)), [Opera](https://addons.opera.com/en/extensions/details/tampermonkey-beta/), [Android](https://play.google.com/store/apps/details?id=net.tampermonkey.dolphin)
+[Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo), [Firefox](https://addons.mozilla.org/fr/firefox/addon/tampermonkey/), [Safari](https://apps.apple.com/us/app/tampermonkey/id1482490089), Microsoft Edge ([Legacy](https://www.microsoft.com/fr-fr/p/tampermonkey/9nblggh5162s?rtc=1&activetab=pivot:overviewtab), [Chromium](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)), [Opera](https://addons.opera.com/en/extensions/details/tampermonkey-beta/), [Android](https://play.google.com/store/apps/details?id=net.tampermonkey.dolphin) (not recommended)
 
 2. [Download the game script](https://raw.githubusercontent.com/MartiiDev/PlaceGuessr/master/placeguessr.user.js) and install it.
 
@@ -16,6 +16,7 @@ Note that this URL will only work if the game is installed.
 You can add it to your favorites to access it quicker.
 
 # Known problems
+- The script has few chances to run correctly on Android, it is better to run it using a computer.
 - If Google Maps changes its interface, the game may not work anymore  
 - The mouse cursor glitches really often  
 	- *Due to `window.history.replaceState()`, if you know an alternative to add parameter to URL without refreshing, please let me know.*  
