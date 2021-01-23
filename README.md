@@ -17,7 +17,9 @@ You can add it to your favorites to access it quicker.
 
 # Known problems
 - The script has few chances to run correctly on Android, it is better to run it using a computer.
-- If Google Maps changes its interface, the game may not work anymore  
+- If Google Maps changes its interface, the game may not work anymore 
+- The coordinates are shown in the URL
+	- *As long as you're not trying to cheat, it should not be a problem.
 - The mouse cursor glitches really often  
 	- *Due to `window.history.replaceState()`, if you know an alternative to add parameter to URL without refreshing, please let me know.*  
 - The POI (Points Of Interest) are still displayed.  
